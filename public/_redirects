@@ -1,0 +1,10 @@
+# OAuth 2.0 authentication redirects (for fallback)
+/__/auth/handler /index.html 200
+/__/auth/* /index.html 200
+/__/* /index.html 200
+
+# Handle any auth-related paths
+/auth/* /index.html 200
+
+# Keep SPA routing for React app
+/* /index.html 200 
