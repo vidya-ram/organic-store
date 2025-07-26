@@ -14,6 +14,7 @@ export function Header({ onCartToggle, onNavClick, isAdmin = false }: HeaderProp
 
   const navItems = [
     { id: 'home', label: 'Home' },
+    { id: 'our-story', label: 'Our Story' },
     { id: 'products', label: 'Products' },
     { id: 'reviews', label: 'Reviews' },
     { id: 'contact', label: 'Contact' }

@@ -8,6 +8,7 @@ import { CheckoutForm } from './components/CheckoutForm';
 import { Reviews } from './components/Reviews';
 import { MapSection } from './components/MapSection';
 import { Footer } from './components/Footer';
+import { OurStory } from './components/OurStory';
 import { CartProvider } from './hooks/useCart';
 import { AdminProductCatalog } from './components/AdminProductCatalog';
 import AdminLogin from './components/AdminLogin';
@@ -59,6 +60,7 @@ function HomePage() {
         <section id="home">
           <Hero onShopNowClick={handleShopNow} />
         </section>
+        <OurStory />
         <ProductCatalog />
         <Reviews />
         <MapSection />

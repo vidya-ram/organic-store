@@ -48,9 +48,13 @@ export function Hero({ onShopNowClick }: HeroProps) {
           {/* Hero Image */}
           <div className="relative">
             <img
-              src="https://images.pexels.com/photos/1128678/pexels-photo-1128678.jpeg?auto=compress&cs=tinysrgb&w=800"
+              src="/images/hero-banner.jpg"
               alt="Fresh organic vegetables and fruits"
               className="rounded-2xl shadow-2xl w-full h-96 object-cover"
+              onError={(e) => {
+                // Fallback to external image if local image doesn't exist
+                e.currentTarget.src = 'https://images.pexels.com/photos/1128678/pexels-photo-1128678.jpeg?auto=compress&cs=tinysrgb&w=800';
+              }}
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-2xl"></div>
           </div>
