@@ -217,14 +217,3 @@ This project can be deployed to any static hosting service:
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 📞 Support
-
-For support or questions:
-- Email: info@villagenaturals.com
-- Phone: +91 98765 43210
-- WhatsApp: [Contact us on WhatsApp](https://wa.me/919876543210)
-
----
-
-**Village Naturals** - Fresh, organic groceries delivered to your doorstep! 🌱 
